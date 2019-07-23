@@ -1,0 +1,11 @@
+{
+  "name": "microposts",
+  "version": "1.0.0",
+  "description": "A moudle based JavaScript project",
+  "main": "app.js",
+  "scripts": {
+    "tsc": "tsc ./src/TypeScript/app.ts --outDir ./src/"
+  },
+  "author": "Patrick Boynton",
+  "license": "ISC"
+}
