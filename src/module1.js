@@ -8,3 +8,5 @@ const person = {
 function sayHello() {
   return `Hello ${person.name}`;
 }
+
+const greeting = 'Hello World';
