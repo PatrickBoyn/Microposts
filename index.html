@@ -13,6 +13,31 @@
         <a href="#" class="navbar-brand">Microposts</a>
       </div>
     </nav>
+
+    <div class="container postsContainer">
+      <div class="card card-body card-form">
+        <h1>Say something</h1>
+        <p class="lead">What's on your mind?</p>
+        <div class="form-group">
+          <input
+            type="text"
+            id="title"
+            class="form-control"
+            placeholder="Post title"
+          />
+          <div class="form-group">
+            <textarea
+              name=""
+              id="body"
+              class="form-control"
+              placeholder="Post body"
+            ></textarea>
+          </div>
+          <input type="hidden" id="id" value="" />
+        </div>
+      </div>
+    </div>
+
     <script src="src/app.js" type="module"></script>
   </body>
 </html>
