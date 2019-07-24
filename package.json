@@ -1,0 +1,19 @@
+{
+  "name": "microposts",
+  "version": "1.0.0",
+  "description": "A \"full stack\" vanilla JS application.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatrickBoyn/microposts.git"
+  },
+  "author": "Patrick Boynton",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PatrickBoyn/microposts/issues"
+  },
+  "homepage": "https://github.com/PatrickBoyn/microposts#readme"
+}
