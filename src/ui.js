@@ -8,7 +8,9 @@ class UI {
         this.formState = 'add';
     };
 
-    showPosts() {
-        
+    showPosts(posts) {
+
     }
 }
+
+export const ui = new UI();
