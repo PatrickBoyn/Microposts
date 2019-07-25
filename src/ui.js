@@ -29,7 +29,9 @@ class UI {
     this.post.innerHTML = output;
   }
 
-  showAlert() {}
+  showAlert(message, className) {
+    this.clearAlert();
+  }
 
   clearAlert() {}
 
