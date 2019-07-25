@@ -48,7 +48,13 @@ class UI {
     }, 3000);
   }
 
-  clearAlert() {}
+  clearAlert() {
+    const currentAlert = document.querySelector('.alert');
+
+    if (currentAlert) {
+      currentAlert.remove();
+    }
+  }
 
   clearFields() {
     this.titleInput.value = '';
