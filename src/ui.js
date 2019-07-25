@@ -9,7 +9,7 @@ class UI {
     };
 
     showPosts(posts) {
-
+        console.log(posts);
     }
 }
 
