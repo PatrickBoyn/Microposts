@@ -20,5 +20,7 @@ function submitPost() {
         body
     }
 
-    http.post('http://localhost:3000/posts', data);
+    http.post('http://localhost:3000/posts', data)
+        .then()
+        .catch();
 }
