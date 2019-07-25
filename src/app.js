@@ -19,4 +19,6 @@ function submitPost() {
         title,
         body
     }
+
+    http.post('http://localhost:3000/posts', data);
 }
