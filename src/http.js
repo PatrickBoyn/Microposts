@@ -1,5 +1,3 @@
-export const http = new SimpleHTTP();
-
 class SimpleHTTP {
   // HTTP GET request
   async get(url) {
@@ -49,3 +47,5 @@ class SimpleHTTP {
     return responseData;
   }
 }
+
+export const http = new SimpleHTTP();
