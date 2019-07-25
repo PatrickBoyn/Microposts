@@ -22,6 +22,8 @@ function submitPost() {
 
     http.post('http://localhost:3000/posts', data)
         .then(data => {
+            ui.showAlert();
+            ui.showFields();
             getPosts();
         })
         .catch(error => console.error(error));
