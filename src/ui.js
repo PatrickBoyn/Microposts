@@ -7,4 +7,8 @@ class UI {
         this.postSubmit = document.querySelector('.post-submit');
         this.formState = 'add';
     };
+
+    showPosts() {
+        
+    }
 }
