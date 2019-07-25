@@ -40,6 +40,12 @@ class UI {
 
     const container = document.querySelector('.post-container');
     const posts = document.querySelector('#posts');
+
+    container.insertBefore(div, posts);
+
+    setTimeout(() => {
+      this.clearAlert();
+    }, 3000);
   }
 
   clearAlert() {}
