@@ -33,7 +33,10 @@ class UI {
 
   clearAlert() {}
 
-  clearFields() {}
+  clearFields() {
+    this.titleInput.value = '';
+    this.bodyInput.value = '';
+  }
 }
 
 export const ui = new UI();
