@@ -1,0 +1,19 @@
+{
+    "posts": [
+        {
+            "id": 1,
+            "title": "An awesome title.",
+            "body":  "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officiis, quis."
+        },
+        {
+            "id": 2,
+            "title": "My good day!",
+            "body": "Lorem, ipsum dolor sit amet consectetur adipisicing elit."
+        },
+        {
+            "id": 3,
+            "title": "Worst day ever!",
+            "body": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem hic numquam corporis repellat amet quasi dicta ut dolorem?"
+        }
+    ]
+}
