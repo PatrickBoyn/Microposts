@@ -9,7 +9,11 @@ class UI {
     };
 
     showPosts(posts) {
-        console.log(posts);
+        let output = '';
+
+        posts.forEach(post => {
+            
+        });
     }
 }
 
