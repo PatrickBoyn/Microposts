@@ -21,6 +21,8 @@ function submitPost() {
     }
 
     http.post('http://localhost:3000/posts', data)
-        .then()
-        .catch();
+        .then(data => {
+            getPosts();
+        })
+        .catch(error => console.error(error));
 }
