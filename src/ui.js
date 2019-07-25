@@ -26,6 +26,18 @@ class UI {
 
         this.post.innerHTML = output;
     }
+
+    showAlert() {
+        
+    }
+
+    clearAlert() {
+
+    }
+
+    clearFields() {
+        
+    }
 }
 
 export const ui = new UI();
