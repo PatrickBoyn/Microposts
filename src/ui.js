@@ -37,6 +37,9 @@ class UI {
     div.className = className;
 
     div.appendChild(document.createTextNode(message));
+
+    const container = document.querySelector('.post-container');
+    const posts = document.querySelector('#posts');
   }
 
   clearAlert() {}
