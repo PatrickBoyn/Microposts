@@ -12,7 +12,7 @@ class UI {
         let output = '';
 
         posts.forEach(post => {
-            output = `
+            output += `
              <div class="card">
                 <div class="card-body">
                     <h4 class="card-title">${post.title}</h4>
@@ -21,6 +21,8 @@ class UI {
              </div>
             `;
         });
+
+        this.post.innerHTML = output;
     }
 }
 
